@@ -201,12 +201,14 @@ export function HomePage() {
             <div className="grid gap-4 sm:grid-cols-2">
               <div className="rounded-[2rem] bg-gradient-to-br from-[#163459] to-[#2c59a5] p-8 text-white shadow-xl sm:col-span-2">
                 <p className="text-sm uppercase tracking-[0.18em] text-blue-100">Visual direction</p>
-                <h3 className="mt-3 text-2xl font-semibold">Imagery can be added later</h3>
-                <p className="mt-3 max-w-lg text-sm leading-7 text-blue-50">The website structure is designed so programme photography and partner logos can be added cleanly once the layout and content are fully approved.</p>
+                <h3 className="mt-3 text-2xl font-semibold">Real programme impact across South Africa</h3>
+                <p className="mt-3 max-w-lg text-sm leading-7 text-blue-50">
+  Showcasing training sessions, job placements, employer partnerships and community-driven impact across South Africa.
+</p>
               </div>
               <div className="rounded-[2rem] border border-slate-200 bg-white p-6 shadow-sm">
                 <p className="text-sm font-medium text-slate-500">Core promise</p>
-                <p className="mt-2 text-xl font-semibold text-slate-900">Project management with implementation focus</p>
+                <p className="mt-2 text-xl font-semibold text-slate-900">Integrated project management and implementation expertise</p>
               </div>
               <div className="rounded-[2rem] border border-slate-200 bg-white p-6 shadow-sm">
                 <p className="text-sm font-medium text-slate-500">Operating footprint</p>
