@@ -39,11 +39,11 @@ const services = [
 ];
 
 const programmes = [
-  {
-    title: "Jobs Connect Initiative",
-    description:
-      "A workforce development platform linking employers, the City of Cape Town, strategic partners and jobseekers through recruitment, filtering and work readiness support.",
-  },
+ {
+  title: "Jobs Connect Initiative",
+  description:
+    "Implemented in partnership with the City of Cape Town, where Leelyn Management serves as the implementation partner, supporting recruitment, filtering and work readiness pathways for jobseekers.",
+},
   {
     title: "International Workforce Mobility Programmes",
     description:
@@ -252,7 +252,9 @@ export function HomePage() {
                 <div key={partner} className="rounded-[2rem] border border-dashed border-slate-300 bg-white p-8 text-center text-sm font-medium text-slate-600 shadow-sm">{partner}</div>
               ))}
             </div>
-            <p className="mt-6 text-sm leading-7 text-slate-500">Replace these placeholders with approved partner logos when ready.</p>
+           <p className="mt-6 text-sm leading-7 text-slate-500">
+  We work in partnership with government, corporate and community stakeholders to deliver measurable impact.
+</p>
           </div>
         </section>
         <section className="mx-auto max-w-7xl px-4 py-20 sm:px-6 lg:px-8">
