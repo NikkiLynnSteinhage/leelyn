@@ -246,7 +246,7 @@ export function HomePage() {
         </section>
         <section className="bg-slate-50">
           <div className="mx-auto max-w-7xl px-4 py-20 sm:px-6 lg:px-8">
-            <SectionHeader eyebrow="Our Partners" title="Trusted collaborations" description="Working alongside the City of Cape Town, corporate partners and key stakeholders to drive meaningful change." />
+            <SectionHeader eyebrow="Our Partners" title="Trusted collaborations" description="Working alongside corporate partners and key stakeholders to drive meaningful change." />
             <div className="mt-10 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
               {partnerGroups.map((partner) => (
                 <div key={partner} className="rounded-[2rem] border border-dashed border-slate-300 bg-white p-8 text-center text-sm font-medium text-slate-600 shadow-sm">{partner}</div>
